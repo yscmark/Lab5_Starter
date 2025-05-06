@@ -9,17 +9,6 @@ import {
 } from "../code-to-unit-test/unit-test-me";
 
 // TODO - Part 2
-// unit.test.js
-
-import {
-    isPhoneNumber,
-    isEmail,
-    isStrongPassword,
-    isDate,
-    isHexColor,
-} from "../code-to-unit-test/unit-test-me";
-
-// TODO - Part 2
 test("123-456-7890 is a phone number", () => {
     // TODO
     expect(isPhoneNumber("123-456-7890")).toBe(true);
